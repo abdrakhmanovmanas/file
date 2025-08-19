@@ -1,49 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cakes</title>
-        <link rel="stylesheet" href="Grid.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    </head>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes</title>
+    <link rel="stylesheet" href="Grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
 <body>
     <header>
-      <div class="line"></div>
-        <nav>     
-         
+        <div class="line"></div>
+        <nav class="rel">     
             <div class="logo">
                 <img src="IconLogo.svg" alt="logo">
             </div>
             <ul class="menu">
-                <li class="chest"><a href="#">Сладкий сундук</a></li>
-                <li class="city"><a href="#">г. Санкт Петербург, ул. Куйбышева 31</a></li>
-
-                <!--<div class="num_open"></div>-->
-
-                <li class="number"><a href="#"><bold>8 (812) 844-95-49</bold> </a></li>
-                <li class="open"><a href="#">Ежедневно с 9:00 до 20:00</a></li>
-             </ul>
+                <li class="chest"><a href="#sweet-chest">Сладкий сундук</a></li>
+                <li class="city"><a href="#address">г. Санкт Петербург,<br> ул. Куйбышева 31</a></li>
+                <li class="number"><a href="tel:+78128449549">8 (812) 844-95-49</a></li>
+                <li class="open"><a href="#hours">Ежедневно с 9:00 до 20:00</a></li>
+            </ul>
         </nav>
-        <img class="bg" src="bg.png" alt="bg">
-        <img class="leaf" src="leaf.png" alt="leaf">
-        <img class="berry" src="berry.png" alt="berry">
-        <img class="berry1" src="berry1.png" alt="berry">
-        <img class="berry2" src="berry2.png" alt="berry">
     </header>
 
-<section class="hero">
-    <div class="hero1"></div>
+    <img class="bg" src="bg.jpg" alt="Фоновое изображение">
+    <img class="leaf" src="leaf.png" alt="Декоративный листок">
+    <img class="berry" src="berry.png" alt="Декоративная ягода">
+    <img class="berry1" src="berry1.png" alt="Декоративная ягода">
+    <img class="berry2" src="berry2.png" alt="Декоративная ягода">
+
+    <section class="hero">
         <button class="delicious">вкуснейшие</button>
         <h1>Пирожные и капкейки от 150 ₽/шт. с доставкой по Санкт Петербургу</h1>
-        <h3>Приготовим за 3 часа в день заказа. <br> 
-            Доставка на авто в холодильнике.</h3>
+        <p class="hero-description">Приготовим за 3 часа в день заказа. <br> 
+            Доставка на авто в холодильнике.</p>
         <button class="catalog">Перейти в каталог</button>
+        <p class="varieties">9 различных <br> видов на выбор</p>
+    </section>
+
+    <section class="catalog1">
+        <h2>Для любых событий и дорогих вам людей</h2>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <img src="cupcake1.svg" alt="Кремовый замок">
+                <h3>Кремовый замок</h3>
+                <p>Нежный крем любого цвета<br>на выбор, вафельная основа</p>
+                <span class="price">150 ₽/шт.</span>
+                <button>Заказать</button>
+            </div>
+            <div class="product-card">
+                <img src="cupcake2.svg" alt="Малиновый рай">
+                <h3>Малиновый рай</h3>
+                <p>Воздушный крем, темная<br>основа и ягода малины</p>
+                <span class="price">150 ₽/шт.</span>
+                <button>Заказать</button>
+            </div>
+            <div class="product-card">
+                <img src="cupcake3.svg" alt="Фейерверк">
+                <h3>Фейерверк</h3>
+                <p>Разноцветный крем<br>с бисквитной основой</p>
+                <span class="price">150 ₽/шт.</span>
+                <button>Заказать</button>
+            </div>
+        </div>
+
+
+
+    </section>
+
+<section class="catalog2">
+    <div class="catalog-grid">
+        <div class="product-card">
+        <img src="cupcake4.svg" alt="Шоколадный мир">
+        <h3>Шоколадный мир</h3>
+        <p>Ореховая стружка, нежный<br>крем и шоколадная основа</p>
+        <span class="price">150 ₽/шт.</span>
+        <button>Заказать</button>
+        </div>
+    </div>
+
 </section>
-<section> 
-<p>Для любых событий и дорогих вам людей </p>
-</section>
+
+
 </body>
 </html>
