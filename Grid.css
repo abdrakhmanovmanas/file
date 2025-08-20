@@ -331,7 +331,8 @@ h1 {
 
 
 
-
+/* Общие стили для секций каталога */
+.catalog1,
 .catalog2 {
   position: relative;
   margin-top: 870px;
@@ -340,15 +341,26 @@ h1 {
   width: 1295px;
 }
 
-.catalog-grid2 {
+.catalog1 h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
+/* Сетка карточек (общая для обеих секций) */
+.catalog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 1180px;
-  height: 582px;
   gap: 20px;
 }
 
-.product-card2 {
+/* Карточка продукта (общая для обеих секций) */
+.product-card {
   display: grid;
   justify-items: center;
   background: #fff;
@@ -357,9 +369,60 @@ h1 {
   position: relative;
 }
 
-.product-card2 img {
+.product-card img {
   width: 380px;
   height: 245px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.product-card h3 {
+  position: absolute;
+  width: 247px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.43;
+  margin-top: 270px;
+  text-align: center;
+  color: #2E363E;
+}
+
+.product-card p {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 320px;
+  color: #2E363E;
+  text-align: center;
+}
+
+.price {
+  position: absolute;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-top: 380px;
+  color: #2E363E;
+}
+
+.product-card button {
+  position: absolute;
+  background: #ffc107;
+  color: #000;
+  border: none;
+  padding: 20px 40px;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 163px;
+  height: 68px;
+  margin-top: 450px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-card button:hover {
+  background: #e6ac00;
 }
