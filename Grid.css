@@ -235,7 +235,7 @@ h1 {
 /* Catalog section */
 .catalog1 {
   position: relative;
-  margin-top: 870px;
+  margin-top: 70px;
   padding: 40px 20px;
   left: 370px;
   width: 1295px;
@@ -255,7 +255,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 1180px;
-  height: 582px;
+  height: auto;
   gap: 20px;
 }
 
@@ -335,10 +335,10 @@ h1 {
 .catalog1,
 .catalog2 {
   position: relative;
-  margin-top: 870px;
+  margin-top: 770px;
   padding: 40px 20px;
   left: 370px;
-  width: 1295px;
+  width: 1250px;
 }
 
 .catalog1 h2 {
@@ -425,4 +425,14 @@ h1 {
 
 .product-card button:hover {
   background: #e6ac00;
+}
+
+.catalog1,
+.catalog2,
+.catalog3 {
+  position: relative;
+  margin-top: 800px; /* небольшой отступ между блоками */
+  padding: 40px 20px;
+  left: 370px;
+  width: 1250px;
 }
