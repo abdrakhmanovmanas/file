@@ -232,14 +232,14 @@ h1 {
   text-align: center;
 }
 
-/* Catalog section */
+/* Catalog section 
 .catalog1 {
   position: relative;
   margin-top: 70px;
   padding: 40px 20px;
   left: 370px;
   width: 1295px;
-}
+}*/
 
 .catalog1 h2 {
   text-align: center;
@@ -331,7 +331,7 @@ h1 {
 
 
 
-/* Общие стили для секций каталога */
+/* Общие стили для секций каталога 
 .catalog1,
 .catalog2 {
   position: relative;
@@ -339,7 +339,7 @@ h1 {
   padding: 40px 20px;
   left: 370px;
   width: 1250px;
-}
+}*/
 
 .catalog1 h2 {
   text-align: center;
@@ -431,8 +431,10 @@ h1 {
 .catalog2,
 .catalog3 {
   position: relative;
-  margin-top: 800px; /* небольшой отступ между блоками */
-  padding: 40px 20px;
-  left: 370px;
-  width: 1250px;
+  margin-top: 80px;
+  max-width: 1180px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
