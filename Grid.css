@@ -431,10 +431,33 @@ h1 {
 .catalog2,
 .catalog3 {
   position: relative;
-  margin-top: 80px;
+  margin-top: 790px;
   max-width: 1180px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
+}
+
+
+.leaf12 {
+  position: absolute;
+  width: 169.9999985811539;
+  height: 173.99999854776928;
+  angle: 63.54 deg;
+  opacity: 1;
+  top: 228px;
+  left: 214px;
+
+}
+
+.leaf13 {
+  position: absolute;
+width: 161.00001525878966;
+height: 166.99998474121156;
+angle: 180 deg;
+opacity: 1;
+top: 1965px;
+left: 1523px;
+
 }
